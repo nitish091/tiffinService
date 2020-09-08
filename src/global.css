@@ -3,11 +3,10 @@
     padding: 30px;
     border-radius: 10px;;
     box-shadow: 0px 0px 10px 0px #000;
-    display: flexbox;
-    justify-content: center;
+
 }
 #thatimg{
-    max-width: 275px;
+    max-width: 27%;
     float: left;
 }
 #thattext{
@@ -20,4 +19,9 @@ body{
 section{
     display: flex;
     justify-content: center;
+}
+@media only screen and (min-width: 500px){
+    .form-container{
+        min-width: 400px;
+    }
 }
