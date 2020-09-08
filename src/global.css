@@ -1,17 +1,19 @@
 .form-container{
     background: #f7f7f7;
-    padding: 30px;
-    border-radius: 10px;;
+    padding: 4%;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000;
 
 }
 #thatimg{
-    max-width: 27%;
     float: left;
+    display: flex;
+    padding: auto;
 }
 #thattext{
     float: right;
     text-align: left;
+    padding: auto;
 }
 body{
     text-align: center;
